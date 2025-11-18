@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 // 🔗 Conexión a MongoDB
-const MONGO_URI = "mongodb+srv://<Jaeger666_>:<paul1234>@cluster0.qo6laex.mongodb.net/miapp"; 
+const MONGO_URI = "mongodb+srv://Jaeger666_:paul1234@cluster0.qo6laex.mongodb.net/miapp"; 
 const JWT_SECRET = "supersecreto123";
 
 mongoose
@@ -89,3 +89,4 @@ app.post("/api/login", async (req, res) => {
 
 // 📌 SERVIDOR
 app.listen(3000, () => console.log("Servidor en puerto 3000"));
+
